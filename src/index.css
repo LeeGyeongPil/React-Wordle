@@ -1,0 +1,12 @@
+p { margin: 0; }
+#board-wrap { width:155px; display:block; }
+#board-wrap div.wordle-row { width:155px; float:left; }
+#board-wrap div.wordle-row div { width:25px; height: 25px; border:1px solid #000; margin:2px; float:left; cursor: default; text-align: center; }
+#board-wrap div.wordle-row div.char-result-o { background-color: #67a561; color:white; }
+#board-wrap div.wordle-row div.char-result-n { background-color: #c3ae55; color:white; }
+#board-wrap div.wordle-row div.char-result-x { background-color: #74787a; color:white; }
+.layout-form { position: absolute; width: 155px; height: 186px; text-align: center; display:block; }
+.layout-form.disable { display:none; }
+.layout-form .bg { background: #fff; opacity: 0.9; width:100%; height:100%; position: absolute;}
+.layout-form span { height: 130px; line-height: 130px; display: inline-block; position: relative; }
+.layout-form button { position: relative; }
